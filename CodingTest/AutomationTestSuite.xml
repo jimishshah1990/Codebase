@@ -1,0 +1,23 @@
+<suite name="PrudentialSuite">
+<test name="PrudentialTest">
+
+<classes>
+<class name="com.prudential.testcode.automation.TC001_LaunchValidation">
+</class>
+
+<class name="com.prudential.testcode.automation.TC002_InvalidSearch">
+</class>
+
+<class name="com.prudential.testcode.automation.TC003_ValidSearch">
+</class>
+
+<class name="com.prudential.testcode.automation.TC004_CurrentLocation">
+</class>
+
+<class name="com.prudential.testcode.automation.TC005_WrongData">
+</class>
+
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrudentialSuite" duration-ms="111004" started-at="2018-10-02T04:55:36Z" finished-at="2018-10-02T04:57:27Z">
+    <groups>
+    </groups>
+    <test name="PrudentialTest" duration-ms="111004" started-at="2018-10-02T04:55:36Z" finished-at="2018-10-02T04:57:27Z">
+      <class name="com.prudential.testcode.automation.TC003_ValidSearch">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.testcode.automation.TC003_ValidSearch@5d7148e2]" name="launchApplication" duration-ms="13700" started-at="2018-10-02T04:56:14Z" finished-at="2018-10-02T04:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testSearchFunctionality()[pri:0, instance:com.prudential.testcode.automation.TC003_ValidSearch@5d7148e2]" name="testSearchFunctionality" duration-ms="11487" started-at="2018-10-02T04:56:27Z" finished-at="2018-10-02T04:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+      </class> <!-- com.prudential.testcode.automation.TC003_ValidSearch -->
+      <class name="com.prudential.testcode.automation.TC004_CurrentLocation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.testcode.automation.TC004_CurrentLocation@25fb8912]" name="launchApplication" duration-ms="8352" started-at="2018-10-02T04:56:39Z" finished-at="2018-10-02T04:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testCurrentLocationFunctionality()[pri:1, instance:com.prudential.testcode.automation.TC004_CurrentLocation@25fb8912]" name="testCurrentLocationFunctionality" duration-ms="18460" started-at="2018-10-02T04:57:04Z" finished-at="2018-10-02T04:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentLocationFunctionality -->
+      </class> <!-- com.prudential.testcode.automation.TC004_CurrentLocation -->
+      <class name="com.prudential.testcode.automation.TC002_InvalidSearch">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.testcode.automation.TC002_InvalidSearch@4fb3ee4e]" name="launchApplication" duration-ms="19243" started-at="2018-10-02T04:55:54Z" finished-at="2018-10-02T04:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testSearchFunctionality()[pri:1, instance:com.prudential.testcode.automation.TC002_InvalidSearch@4fb3ee4e]" name="testSearchFunctionality" duration-ms="9137" started-at="2018-10-02T04:56:55Z" finished-at="2018-10-02T04:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+      </class> <!-- com.prudential.testcode.automation.TC002_InvalidSearch -->
+      <class name="com.prudential.testcode.automation.TC005_WrongData">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.testcode.automation.TC005_WrongData@7c24b813]" name="launchApplication" duration-ms="7047" started-at="2018-10-02T04:56:47Z" finished-at="2018-10-02T04:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testWrongDataFunctionality()[pri:1, instance:com.prudential.testcode.automation.TC005_WrongData@7c24b813]" name="testWrongDataFunctionality" duration-ms="4645" started-at="2018-10-02T04:57:22Z" finished-at="2018-10-02T04:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongDataFunctionality -->
+      </class> <!-- com.prudential.testcode.automation.TC005_WrongData -->
+      <class name="com.prudential.testcode.automation.TC001_LaunchValidation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.prudential.testcode.automation.TC001_LaunchValidation@f5acb9d]" name="launchApplication" duration-ms="18436" started-at="2018-10-02T04:55:36Z" finished-at="2018-10-02T04:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testSearchFunctionality()[pri:1, instance:com.prudential.testcode.automation.TC001_LaunchValidation@f5acb9d]" name="testSearchFunctionality" duration-ms="457" started-at="2018-10-02T04:56:54Z" finished-at="2018-10-02T04:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.prudential.testcode.automation.TC001_LaunchValidation@f5acb9d]" name="afterSuite" is-config="true" duration-ms="1181" started-at="2018-10-02T04:57:27Z" finished-at="2018-10-02T04:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.prudential.testcode.automation.TC001_LaunchValidation -->
+    </test> <!-- PrudentialTest -->
+  </suite> <!-- PrudentialSuite -->
+</testng-results>
